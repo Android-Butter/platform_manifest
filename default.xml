@@ -4,6 +4,10 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
+ 
+  <remote name="TH"
+           fetch="git://github.com" />          
+           
 
   <remote  name="aokp"
            fetch="https://github.com/AOKP/"
@@ -63,7 +67,7 @@
   <project path="device/htc/pyramid" name="box_device_htc_pyramid" remote="dk" revision="cm-10.1" />
   <project path="device/htc/msm8660-common" name="box_device_htc_msm8660-common" remote="dk" revision="cm-10.1" />
   <project path="kernel/htc/msm8660" name="android_kernel_htc_msm8660" remote="dk" revision="cm-10.1" />
-                                                   
+  <project path="prebuilt/linux-x86/toolchain/linaro-arm-cortex-a8" name="Team-Hydra/linaro-arm-cortex-a8" remote="TH" revision="cm-10.1" />                                                 
   <project path="device/sample" name="device/sample" />
  
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
