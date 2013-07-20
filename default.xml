@@ -15,6 +15,10 @@
 
   <remote  name="rootbox"
 	   fetch="https://github.com/Root-Box/" />
+	   
+  <remote name="dk"
+           fetch="git://github.com/Android-Butter/"
+           review=""/>	   
 
   <remote  name="bajee"
 	   fetch="https://github.com/Bajee11/" />
@@ -35,7 +39,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="rootbox" revision="jb-mr1" >
+  <project path="build" name="box_build" remote="dk" revision="cm-10.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -230,7 +234,7 @@
   <project path="external/zlib" name="android_external_zlib" remote="cm" revision="cm-10.1" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="frameworks_av" remote="rootbox" revision="jb-mr1" />
-  <project path="frameworks/base" name="frameworks_base" remote="rootbox" revision="jb-mr1" />
+  <project path="frameworks/base" name="box_frameworks_base" remote="dk" revision="cm-10.1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
@@ -389,5 +393,5 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
-  <project path="platform_manifest" name="platform_manifest" remote="rootbox" revision="jb-mr1" />
+  <project path="platform_manifest" name="platform_manifest" remote="dk" revision="jb-mr1" />
 </manifest>
