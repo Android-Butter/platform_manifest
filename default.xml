@@ -69,7 +69,6 @@
   <project path="kernel/htc/msm8660" name="android_kernel_htc_msm8660" remote="dk" revision="cm-10.1" />
   <project path="prebuilt/linux-x86/toolchain/linaro-arm-cortex-a8" name="Team-Hydra/linaro-arm-cortex-a8" remote="TH" revision="cm-10.1" />                                                 
   <project path="device/sample" name="device/sample" />
- 
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
